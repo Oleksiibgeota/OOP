@@ -6,7 +6,6 @@ import java.util.List;
 import java.util.ListIterator;
 
 public class MyArrayList implements List{
-    int size = 0;
 
     @Override
     public int size() {
