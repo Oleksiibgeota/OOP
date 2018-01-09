@@ -1,5 +1,7 @@
 package arrays;
 
+
+
 import geometry.Rectangle;
 import geometry.Square;
 import geometry.Triangular;
@@ -10,22 +12,24 @@ public class Main {
 
     public static void main(String[] args) {
         int[] arr1 = new int[10];
-        for(int i=0; i < arr1.length; i++){
+        for (int i = 0; i < arr1.length; i++) {
             arr1[i] = i;
         }
-        System.out.println(Arrays.toString(arr1));
+        //System.out.println(Arrays.toString(arr1));
 
-        int[] arr2 = new int[20];
-        for(int i=0; i<arr1.length; i++){
-            arr2[i] = arr1[i];
-        }
-        System.out.println(Arrays.toString(arr2));
-
-        for(int i = arr1.length-1; i>=0; i--){
+        int[] arr2 = new int[arr1.length * 2];
+        for (int i = 0; i < arr2.length; i++) {
+            if (i < arr1.length) {
                 arr2[i] = arr1[i];
+            } else {
+                arr2[i] = arr2.length / 2 - 1 - arr1[i - arr1.length];
+
+
+            }
         }
         System.out.println(Arrays.toString(arr2));
-    }
+
+
 
 //    public static void main(String[] args) {
 //        int[][] arr1 = new int[10][10];
@@ -74,4 +78,5 @@ public class Main {
 //        }
 //        System.out.println(allArea);
 //    }
+    }
 }

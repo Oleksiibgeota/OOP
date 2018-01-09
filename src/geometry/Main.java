@@ -3,6 +3,9 @@ package geometry;
 public class Main {
 
     public static void main(String[] args) {
+        Square.getCount();
+        Square test = new Square(3);
+        test.side2 = 5;
         Square a = new Square(); //объявление переменной ''a'' типа square и приисваивание ей нового объекта типа Square (тот что после new
         Square b = new Square(32);
         Triangular c = new Triangular(3);
@@ -29,5 +32,14 @@ public class Main {
         System.out.println(f1);
         System.out.println(f2);
 
+        Triangular tr = new Triangular(4);
+        tr.test1();
+        tr.test2();
+
+        Rectangle re = new Rectangle( 3,2);
+        tr.test2();
+        System.out.println(Rectangle.getCount());
+
     }
+
 }

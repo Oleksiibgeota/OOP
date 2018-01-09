@@ -13,4 +13,16 @@ public class Triangular extends Square {
     public double perimiter() {
         return side * 3;
     }
+
+    protected int test1(){
+        return 900;
+    }
+
+    int test2(){
+        return 900;
+    }
+
+    private int test3(){
+        return 900;
+    }
 }

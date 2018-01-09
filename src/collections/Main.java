@@ -1,10 +1,10 @@
 package collections;
 
 import geometry.Square;
+import geometry.Test;
+import geometry.Triangular;
 
 import java.util.ArrayList;
-import java.util.Collection;
-import java.util.HashSet;
 import java.util.List;
 
 public class Main {
@@ -19,10 +19,15 @@ public class Main {
         col1.add(new Square(6));
         System.out.println(col1);
 
-        for(int i=0; i<col1.size(); i++){
+        for (int i = 0; i < col1.size(); i++) {
             System.out.println(col1.get(i));
         }
         System.out.println("---------------------------");
-        System.out.println("size: "+col1.size());
+        System.out.println("size: " + col1.size());
+
+        Square test = new Square(4);
+
+        Test fff = Test.getTest();
+
     }
 }
