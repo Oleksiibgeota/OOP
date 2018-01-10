@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class String {
+public class TestString {
     public static void main(String[] args) {
         java.lang.String name = "Borodai Oleksii";
 //        System.out.println(name);
