@@ -13,5 +13,7 @@ public class Pascal {
 
             System.out.println(Arrays.toString(a[i]));
         }
+//        System.out.println(Arrays.deepHashCode(a));
+        System.out.println(Arrays.deepToString(a));
     }
 }

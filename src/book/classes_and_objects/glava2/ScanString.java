@@ -7,7 +7,7 @@ public class ScanString {
         Scanner scanner1 = new Scanner(System.in);
         Scanner scanner2 = new Scanner(System.in);
         Scanner scanner3 = new Scanner(System.in);
-        System.out.println("print three masseges");
+        System.out.println("print three massages");
         String mas1 = scanner1.next();
         String mas2 = scanner1.next();
         String mas3 = scanner1.next();
